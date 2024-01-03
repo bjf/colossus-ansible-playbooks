@@ -1,0 +1,4 @@
+# Retry count
+retryCount: 5
+# Retry delay
+retryDelaySeconds: 10

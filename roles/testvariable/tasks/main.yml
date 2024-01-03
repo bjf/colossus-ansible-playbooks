@@ -1,0 +1,11 @@
+---
+
+- name: Wait for Connection
+  wait_for_connection:
+    timeout: 600
+
+- name: create first test file
+  command: "touch {{ file1 }}"
+  
+- name: create second test file
+  command: "touch {{ file2 }}"
